@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("./responsive-css.css");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* navbar */
+#mainNav .brand {
+  padding: 20px 0;
+  line-height: 0;
+}
+
+#mainNav .brand img {
+  width: 90.71px;
+}
+
+#mainNav .navbar-inner {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#mainNav .navbar.btn-navbar {
+  border: 1px solid red;
+  margin-right: unset;
+}
+
+/* 
+* change text "Help Center" to "Home"
+*/
+#home a::before {
+  content: "Home";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#home a {
+  color: transparent;
+  position: relative;
+}
+
+#home a b {
+  color: inherit;
+  position: relative;
+  display: inline;
+}
+
+#home a::before {
+  content: "Home";
+  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*End----------------------------------------*/
+
+#home a,
+#contact a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#home .caret {
+  display: none;
+}
+
+/* Doc Search */
+#docsSearch {
+  background: 000;
+  border-bottom: unset;
+  margin-bottom: unset;
+  padding: unset;
+}
+
+#searchBar {
+  padding: 32px 0 100px 0;
+}
+
+#searchBar .search-query {
+  background: #fff;
+  box-shadow: none;
+  color: #777;
+  border-radius: 12px 0px 0px 12px;
+  border-color: #ededed;
+}
+
+#searchBar .search-query::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+#searchBar button {
+  background: #000;
+  border-color: transparent;
+  color: #fff;
+  padding: unset;
+  width: 48px;
+  border-radius: 0px 12px 12px 0px;
+  top: unset;
+}
+
+#searchBar button .icon-search {
+  display: block;
+  color: #fff;
+}
+
+#searchBar button[type="submit"] span {
+  display: none;
+}
+
+#searchBar button:hover {
+  background: #000;
+  border-color: transparent;
+  color: #fff;
+}
+
+/* content area */
+#contentArea .category-list {
+  margin: unset;
+}
+
+#contentArea .category-list.two-col {
+  padding-bottom: 120px;
+}
+
+#contentArea .category-list.two-col a {
+  border: 1px solid #ededed;
+  border-radius: 12px;
+}
+
+#contentArea .category-list.two-col a::before {
+  content: "";
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background-image: url("https://lh3.googleusercontent.com/d/1qQ9B7IR4UyHCwfjh6dxRkJ5i1zW6RbDt");
+  background-size: cover;
+  margin-left: 10px;
+}
+
+#contentArea footer {
+  p,
+  a,
+  span {
+    color: #1c1b1f;
+  }
+
+  p {
+    margin: 6rem 20px 8px 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+  }
+}
+
+/*Category Page*/
+#contentArea {
+  #main-content {
+    background: unset;
+    margin: 0 -20px;
+
+    .contentWrapper {
+      .sort {
+        display: none;
+      }
+
+      a .icon-article-doc {
+        display: none;
+      }
+
+      #categoryHead h1 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.10000000149011612px;
+      }
+
+      .articleList {
+        li {
+          margin: 16px 0;
+        }
+
+        a span {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.25px;
+        }
+      }
+
+      #fullArticle {
+        a {
+          display: none;
+        }
+
+        p {
+          color: #949494;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.25px;
+
+          margin-bottom: unset;
+        }
+      }
+
+      #fullArticle h1 {
+        margin: unset;
+        padding-bottom: 16px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.10000000149011612px;
+      }
+
+      .articleRatings {
+        margin-top: 28px;
+        border: 1.5px solid #ededed;
+        border-radius: 12px;
+        box-shadow: unset;
+        color: #1c1b1f;
+      }
+
+      p {
+        margin-top: unset;
+      }
+
+      .articleFoot {
+        margin-top: unset;
+        padding: 32px 0;
+        border-bottom: 1.5px solid #ededed;
+
+        .icon-contact {
+          display: none;
+        }
+
+        p {
+          font-family: unset;
+          color: #1c1b1f;
+          font-style: normal;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0.4000000059604645px;
+
+          a {
+            color: #1c1b1f;
+          }
+        }
+
+        time {
+          font-family: unset;
+          color: #1c1b1f;
+          font-style: normal;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0.4000000059604645px;
+        }
+      }
+    }
+
+    .related {
+      border: unset;
+
+      h3 {
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.10000000149011612px;
+      }
+
+      a .icon-article-doc {
+        display: none;
+      }
+
+      ul > li {
+        padding: 1px 0;
+      }
+
+      span {
+        color: #1c1b1f;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+      }
+    }
+  }
+
+  #sidebar {
+    margin: unset;
+    padding-top: 28px;
+
+    #searchBar.sm {
+      margin-bottom: 15px;
+    }
+
+    form {
+      .search-query {
+        height: 48px;
+        border-radius: 12px;
+        border: 1px solid #ededed;
+      }
+
+      button {
+        height: 48px;
+        right: 0;
+
+        .icon-search {
+          color: #949494;
+        }
+      }
+    }
+
+    h3 {
+      display: none;
+    }
+
+    .nav-list {
+      .active a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.10000000149011612px;
+
+        .icon-arrow {
+          display: none;
+        }
+      }
+
+      a {
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+      }
+    }
+  }
+}

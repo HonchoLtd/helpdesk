@@ -1,0 +1,107 @@
+@media (max-width: 768px) {
+  #docsSearch h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+
+  #mainNav .btn.btn-navbar {
+    right: 0;
+    margin-right: unset;
+  }
+
+  #mainNav .icon-bar {
+    background: #000;
+  }
+
+  #mainNav .container-fluid {
+    height: unset;
+  }
+
+  /* Category Page */
+  #sidebar {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1.5px solid #ededed;
+  }
+
+  #contentArea {
+    & #main-content {
+      .contentWrapper {
+        border: unset;
+        padding: 32px 20px 0 20px;
+
+        .articleList {
+          padding-bottom: 8px;
+          border-bottom: 1px solid #ededed;
+        }
+
+        .articleFoot {
+          p {
+            font-family: unset;
+            color: #1c1b1f;
+            font-style: normal;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.4000000059604645px;
+
+            a {
+              color: #1c1b1f;
+            }
+          }
+
+          time {
+            font-family: unset;
+            color: #1c1b1f;
+            font-style: normal;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.4000000059604645px;
+          }
+        }
+      }
+
+      .related {
+        padding: 28px 20px 28px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #mainNav .container-fluid {
+    height: 60px;
+  }
+
+  #contentArea {
+    & #main-content {
+      .contentWrapper {
+        border: unset;
+        padding: 0 20px;
+      }
+
+      .related {
+        padding: 32px 20px 25px 20px;
+        border: unset;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  #docsSearch h1 {
+    font-size: 57px;
+    font-weight: 500;
+    line-height: 64px;
+    margin-top: 100px !important;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 600px) {
+  #contentArea .category-list .category,
+  .category-list.two-col .category {
+    margin: 0 0.8% 20px 0.8%;
+  }
+}
