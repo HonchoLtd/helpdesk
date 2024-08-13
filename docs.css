@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 @import url("./docs-responsive.css");
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("./fonts/THICCCBOI/TTF/THICCCBOI-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "THICCCBOI", sans-serif;
 }
 
 /* navbar */
@@ -22,7 +28,7 @@
 }
 
 #mainNav .navbar.btn-navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-right: unset;
 }
 
@@ -138,9 +144,39 @@
   display: inline-block;
   width: 56px;
   height: 56px;
-  background-image: url("https://lh3.googleusercontent.com/d/1qQ9B7IR4UyHCwfjh6dxRkJ5i1zW6RbDt");
+  background-image: url("https://lh3.googleusercontent.com/d/1m0MWTxcoFNcmm12sJPOXwFwsCU7xvLuj");
   background-size: cover;
   margin-left: 10px;
+  background-color: black;
+  border-radius: 100px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* #category-4::before {
+  background-image: url("https://lh3.googleusercontent.com/d/1Mk28VnE9MgU8HYLm5srfIr6BGDUHsLh1") !important;
+} */
+
+#category-14::before {
+  background-image: url("https://lh3.googleusercontent.com/d/1CEuIc-w2_ffTQsyEDlZL7Z73fnGJj2HS") !important;
+}
+
+#contentArea .category-list.two-col .article-count {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+#contentArea .category-list h3 {
+  color: #1c1b1f;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
 }
 
 #contentArea footer {
@@ -175,13 +211,6 @@
         display: none;
       }
 
-      #categoryHead h1 {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.10000000149011612px;
-      }
-
       .articleList {
         li {
           margin: 16px 0;
@@ -202,10 +231,10 @@
 
         p {
           color: #000;
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 400;
-          line-height: 20px;
-          letter-spacing: 0.25px;
+          line-height: 24px;
+          letter-spacing: 0.5px;
 
           margin-bottom: unset;
         }
@@ -226,6 +255,11 @@
         border-radius: 12px;
         box-shadow: unset;
         color: #1c1b1f;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
       }
 
       p {
@@ -245,10 +279,10 @@
           font-family: unset;
           color: #1c1b1f;
           font-style: normal;
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 400;
-          line-height: 16px;
-          letter-spacing: 0.4000000059604645px;
+          line-height: 20px;
+          letter-spacing: 0.25px;
 
           a {
             color: #1c1b1f;
@@ -259,10 +293,10 @@
           font-family: unset;
           color: #1c1b1f;
           font-style: normal;
-          font-size: 12px;
+          font-size: 14px;
           font-weight: 400;
-          line-height: 16px;
-          letter-spacing: 0.4000000059604645px;
+          line-height: 20px;
+          letter-spacing: 0.25px;
         }
       }
     }
@@ -271,10 +305,11 @@
       border: unset;
 
       h3 {
+        color: #1c1b1f;
         text-transform: capitalize;
-        font-size: 16px;
+        font-size: 24px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 32px;
         letter-spacing: 0.10000000149011612px;
       }
 
@@ -288,10 +323,10 @@
 
       span {
         color: #1c1b1f;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.25px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
       }
     }
   }
@@ -327,9 +362,9 @@
 
     .nav-list {
       .active a {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
-        line-height: 20px;
+        line-height: 24px;
         letter-spacing: 0.10000000149011612px;
 
         .icon-arrow {
@@ -339,9 +374,9 @@
 
       a {
         color: black;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 24px;
         letter-spacing: 0.25px;
       }
     }

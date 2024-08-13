@@ -5,6 +5,17 @@
     line-height: 44px;
   }
 
+  #searchBar {
+    padding: 32px 0 64px 0 !important;
+  }
+
+  #categoryHead h1 {
+    font-family: "THICCCBOI";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.9px;
+  }
+
   #mainNav .btn.btn-navbar {
     right: 0;
     margin-right: unset;
@@ -37,14 +48,20 @@
         }
 
         .articleFoot {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+
           p {
             font-family: unset;
             color: #1c1b1f;
             font-style: normal;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 400;
-            line-height: 16px;
-            letter-spacing: 0.4000000059604645px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
 
             a {
               color: #1c1b1f;
@@ -55,10 +72,27 @@
             font-family: unset;
             color: #1c1b1f;
             font-style: normal;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 400;
-            line-height: 16px;
-            letter-spacing: 0.4000000059604645px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+          }
+        }
+
+        #fullArticle {
+          h1.title {
+            color: #1c1b1f;
+            font-family: THICCCBOI;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 36.9px;
+          }
+          h2 {
+            font-family: THICCCBOI;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 27.67px;
+            text-align: left;
           }
         }
       }
@@ -80,6 +114,24 @@
       .contentWrapper {
         border: unset;
         padding: 0 20px;
+
+        #fullArticle {
+          h1.title {
+            color: #1c1b1f;
+            font-family: THICCCBOI;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 55.34px;
+            text-align: left;
+          }
+          h2 {
+            font-family: THICCCBOI;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 36.9px;
+            text-align: left;
+          }
+        }
       }
 
       .related {
@@ -87,6 +139,13 @@
         border: unset;
       }
     }
+  }
+
+  #categoryHead h1 {
+    font-family: "THICCCBOI";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
   }
 }
 
