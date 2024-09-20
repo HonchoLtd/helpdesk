@@ -172,10 +172,11 @@
 }
 
 #contentArea .category-list h3 {
+  font-family: "THICCCBOI";
   color: #1c1b1f;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 36px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.9px;
   text-align: center;
 }
 
@@ -217,9 +218,9 @@
         }
 
         a span {
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 400;
-          line-height: 20px;
+          line-height: 24px;
           letter-spacing: 0.25px;
         }
       }
@@ -237,6 +238,15 @@
           letter-spacing: 0.5px;
 
           margin-bottom: unset;
+        }
+
+        table td {
+          border: 1px solid #e2e2e2 !important;
+          color: #000;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.5px;
         }
       }
 
