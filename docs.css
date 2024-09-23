@@ -249,7 +249,7 @@
           letter-spacing: 0.5px;
         }
 
-        ol, ul {
+        ol, ul, li {
           color: #000;
           font-size: 16px !important;
           font-weight: 400;
