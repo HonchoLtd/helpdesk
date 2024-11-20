@@ -230,10 +230,6 @@
           display: none;
         }
 
-        a[href] {
-          display: inline !important; /* Force display for these links */
-        }
-
         p {
           color: #000;
           font-size: 16px;
@@ -260,6 +256,10 @@
           line-height: 24px;
           letter-spacing: 0.5px;
         }
+      }
+
+      #fullArticle a[href] {
+        display: inline !important; /* Force display */
       }
 
       #fullArticle h1 {
