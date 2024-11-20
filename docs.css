@@ -258,7 +258,7 @@
         }
       }
 
-      #fullArticle a[href] {
+      #fullArticle div[data-html-block] a[href] {
         display: inline !important;
         font-size: 16px;
         font-weight: 400;
