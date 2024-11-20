@@ -230,6 +230,10 @@
           display: none;
         }
 
+        a href {
+          display: inline !important; /* Force display for these links */
+        }
+
         p {
           color: #000;
           font-size: 16px;
